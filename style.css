@@ -21,6 +21,12 @@ body{
      background-position: center;
 
 }
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
 .container{
     padding:15px 10%;
 
@@ -446,13 +452,15 @@ form .btn2{
     display: block;
 }
 
+
 /* ----------css for small screens -------------------------------- */
-/* 
+ 
 nav .fas{
     display: none;
 }
 @media only screen and (max-width: 600px){
     #header {
+        background-image:url(Phone\ img\ background.jpg);
 
     }
     .header-text{
@@ -489,7 +497,6 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
-    
 
     
-} */
+}
